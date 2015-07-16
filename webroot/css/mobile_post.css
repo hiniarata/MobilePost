@@ -1,0 +1,51 @@
+/*
+* モバイルポスト スタイルシート
+*/
+/* 全体の背景色 */
+body{
+    background-color: #E8E8E8;
+}
+/* ヘッダーロゴ部分 */
+.headerLogo{
+  margin-top: 5px;
+  padding-left: 5px;
+}
+/* フォーム間k連 */
+.checkbox{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+div.checkbox{
+    display:inline;
+}
+/* コンテンツ見出し */
+.topContentTitle{
+    background-color: #000;
+    padding: 0.3em;
+    margin-bottom: 1em;
+    text-shadow: none;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+}
+/* メニュー部分 */
+a.btnBlack{
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.5em 0em;
+    color: #FFF;
+    text-shadow: none;
+    border-width:  0px 0px 1px 0px;
+    border-color: #666;
+    border-style: solid;
+}
+.sideBtn{
+    color:#fff !important;
+    text-shadow: none;
+    text-decoration: none;
+}
+/* 一時的なメッセージ表示 */
+#flashMessage{
+    padding: 10px;
+}
